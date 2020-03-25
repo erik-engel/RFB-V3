@@ -1,16 +1,16 @@
 public class Database {
-    private Teacher teacher;
+    private Employee employee;
     private Admin admin;
 
     public static final Database instance = new Database();
     public static Database getInstance(){return instance;}
 
-    public Teacher getTeacher() {
-        return teacher;
+    public Employee getEmployee() {
+        return employee;
     }
 
-    public void setTeacher(Teacher teacher) {
-        this.teacher = teacher;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
     public Admin getAdmin() {

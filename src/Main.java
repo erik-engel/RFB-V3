@@ -4,7 +4,7 @@ public class Main {
         Database database = Database.getInstance();
         Login login = new Login();
         database.setAdmin(new Admin("hej","hej"));
-        database.setUser(new User("med", "med"));
+        database.setEmployee(new Employee("med", "med"));
 
         login.run();
     }

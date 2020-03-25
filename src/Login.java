@@ -23,7 +23,7 @@ public class Login {
                 loggedIn = true;
                 menu.adminMenu();
             }
-            else if (user.equals(database.getTeacher().getUser()) && password.equals(database.getTeacher().getPassword())) {
+            else if (user.equals(database.getEmployee().getUser()) && password.equals(database.getEmployee().getPassword())) {
                 loggedIn = true;
                 menu.employeeMenu();
             }
